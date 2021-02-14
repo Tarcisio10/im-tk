@@ -1,4 +1,4 @@
-import { Asas, Tempo2 } from './imagens';
+import { Asas, Tempo2 } from '../imagens/imagens';
 
 function Image() {
   return (

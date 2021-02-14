@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Titulo, Titulo2 } from './styles';
+import { Container, Titulo, Titulo2 } from './styles/styles';
 
 function Home() {
   return (
@@ -19,7 +19,5 @@ function Home() {
     </Container>
   );
 }
-
-//export default Home;
 
 export default Home;

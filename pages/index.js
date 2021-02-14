@@ -1,5 +1,5 @@
-import { useState } from 'react';
-import { Asas, Tempo2 } from '../image/imagens';
+import Contador from '../components/Contador';
+import { Asas, Tempo2 } from '../imagens/imagens';
 
 function Main() {
   return (
@@ -55,19 +55,4 @@ function Main() {
   );
 }
 
-function Contador() {
-  const [contador, setContador] = useState(1);
-
-  function addContador() {
-    setContador(contador + 1);
-  }
-  return (
-    <div>
-      <div>{contador}</div>
-      <button onClick={addContador}>Adicionar</button>
-    </div>
-  );
-}
-
 export default Main;
-//export { Main, MostrarImage };
