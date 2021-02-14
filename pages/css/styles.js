@@ -9,3 +9,7 @@ export const Titulo = styled.h1`
 export const Titulo2 = styled.h2`
   color: blue;
 `;
+
+export const Titulo2 = styled.h3`
+  color: green;
+`;
