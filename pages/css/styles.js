@@ -10,6 +10,6 @@ export const Titulo2 = styled.h2`
   color: blue;
 `;
 
-export const Titulo2 = styled.h3`
+export const Titulo3 = styled.h3`
   color: green;
 `;
