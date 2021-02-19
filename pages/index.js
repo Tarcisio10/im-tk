@@ -1,16 +1,24 @@
 import Contador from '../components/Contador';
 import { Asas, Tempo2 } from '../imagens/imagens';
+import {
+  Container,
+  Titulo,
+  Titulo2,
+} from '../components/exemploStyles/styles/styles';
 
 function Main() {
   return (
     <html>
       <head>
-        <title>TARCISIO</title>
+        <title>TK</title>
       </head>
       <body>
         <h1>teste fora</h1>
         <center>
-          <h1>Bem vindo TK</h1>
+          <h1>Bem vindo Tarcisio</h1>
+          <Container>
+            <div>Ola</div>
+          </Container>
           <p>
             <i>
               <b>@Tarciblois</b>
